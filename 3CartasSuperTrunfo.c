@@ -17,7 +17,7 @@ int main() {
     float area1, area2;
     float pib1, pib2;
     int pontos1, pontos2;
-    float densidade1, densidade2;  // densidade demografica
+    float densidade1, densidade2;  // densidade populacional
     float capita1, capita2;        // PIB per capita
     float SuperPoder1, SuperPoder2; //soma de todos os valores
 
@@ -69,7 +69,7 @@ int main() {
     printf("Carta 1: %c - %s\n", estado1, codigo1);
     printf("Nome da Cidade: %s\nPopulação: %lu\nÁrea: %.2f km²\nPIB: %.2f bilhões de reais\nPontos turísticos: %d\n",
            nome1, pop1, area1, pib1, pontos1);
-    printf("Densidade Demografica: %.2f hab/km²\n", densidade1);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade1);
     printf("PIB per capita: %.2f reais\n", capita1);
     printf("Super Poder: %.2f\n", SuperPoder1);       
 
@@ -78,7 +78,7 @@ int main() {
     printf("Carta 2: %c - %s\n", estado2, codigo2);
     printf("Nome da Cidade: %s\nPopulação: %lu\nÁrea: %.2f km²\nPIB: %.2f bilhões de reais\nPontos turísticos: %d\n",
            nome2, pop2, area2, pib2, pontos2);
-    printf("Densidade Demografica: %.2f hab/km²\n", densidade2);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade2);
     printf("PIB per capita: %.2f reais\n", capita2);
     printf("Super Poder: %.2f\n", SuperPoder2);
 
@@ -89,7 +89,7 @@ int main() {
     printf("Área: Carta 1 venceu? %d\n", area1>area2);
     printf("PIB: Carta 1 venceu? %d\n", pib1>pib2);
     printf("Pontos Turísticos: Carta 1 venceu? %d\n", pontos1>pontos2);
-    printf("Densidade Demográfica: Carta 1 venceu? %d\n", densidade1>densidade2);
+    printf("Densidade populacional: Carta 1 venceu? %d\n", densidade1>densidade2);
     printf("PIB per capita: Carta 1 venceu? %d\n", capita1>capita2);
     printf("Super Poder: Carta 1 venceu? %d\n", SuperPoder1>SuperPoder2);
 
